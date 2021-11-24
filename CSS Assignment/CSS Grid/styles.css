@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+display: grid;
+row-gap: 20px;
+border-width: 1px;
+border-color: black;
+grid-template-columns : repeat(auto-fit, minmax(202px, 1fr));
+place-items: center;
+}
+
+.item{
+background-color: rgb(208, 255, 0);
+border-width: 1px;
+border-color: black;
+height: 200px;
+width: 200px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
